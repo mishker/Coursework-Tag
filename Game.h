@@ -6,7 +6,7 @@ const int ARRAY_SIZE = SIZE * SIZE;
 const int FIELD_SIZE = 500;				
 const int CELL_SIZE = 120;				
 
-enum class Direction { Left = 0, Right = 1, Up = 2, Down = 3 };
+enum class Direction {Left = 0, Right = 1, Up = 2, Down = 3};
 
 class Game : public sf::Drawable, public sf::Transformable
 {
