@@ -77,7 +77,7 @@ void Game::draw(sf::RenderTarget& target, sf::RenderStates states) const
 			text.setFillColor(sf::Color::Green);
 		}
 		
-		if (elements[i] > 0)
+		if (elements[i]>0)
 		{
 			sf::Vector2f position(i % SIZE * CELL_SIZE + 10.f, i / SIZE * CELL_SIZE + 10.f);
 			shape.setPosition(position);
