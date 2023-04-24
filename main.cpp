@@ -40,7 +40,7 @@ int main()
 				}
 			}
 		}
-
+		// Если счетчик ходов больше нуля, продолжаем перемешивать головоломку
 		if (move_counter-- > 0) game.Move((Direction)(rand() % 4));
 
 		window.clear();
